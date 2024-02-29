@@ -1,7 +1,7 @@
 # Dynamic Policy-Driven Adaptive Multi-Instance Learning for Whole Slide Image Classification
 
 
-Tingting Zheng,  [Kui jiang]([https://haozhexie.com](https://scholar.google.com/citations?user=AbOLE9QAAAAJ&hl=en&oi=ao)), [Hongxun Yao](https://scholar.google.com/citations?user=aOMFNFsAAAAJ)
+Tingting Zheng,  [Kui jiang](https://scholar.google.com/citations?user=AbOLE9QAAAAJ&hl=en&oi=ao), [Hongxun Yao](https://scholar.google.com/citations?user=aOMFNFsAAAAJ)
 
 Harbin Institute of Technology
 ## Update
