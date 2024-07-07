@@ -23,8 +23,6 @@ Harbin Institute of Technology
 
    #### Preprocessed feature vector
 
-> We provide processed feature vector for two datasets. Aforementioned works [DSMIL](https://github.com/binli123/dsmil-wsi) and [CLAM](https://github.com/mahmoodlab/CLAM/tree/master) 
-greatly simplified the preprocessing. Thanks again to their wonderful works!
 >We use preprocessing features from [MMIL](https://github.com/hustvl/MMIL-Transformer?tab=readme-ov-file). More details about this file can refer [DSMIL](https://github.com/binli123/dsmil-wsi) and [CLAM](https://github.com/mahmoodlab/CLAM/tree/master) Thanks to their wonderful works!
 
 <div align="center">
