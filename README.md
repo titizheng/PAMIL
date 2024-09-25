@@ -22,7 +22,6 @@
 ```bash
 torch
 torchvision
-scikit-survival
 numpy
 h5py
 scipy
