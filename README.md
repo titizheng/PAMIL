@@ -8,7 +8,23 @@ Harbin Institute of Technology
 - [2024/02/29] The repo is created
 - [2024/07/27] Update preprocessing features
 
+## Pre-requisites:
+* Linux (Tested on Ubuntu 18.04)
+* NVIDIA GPU (Tested on 3090)
 
+## Dependencies:
+```bash
+torch
+torchvision
+scikit-survival
+numpy
+h5py
+scipy
+scikit-learning
+pandas
+nystrom_attention
+admin_torch
+```
 
 ## Usage
   ### Dataset
@@ -20,7 +36,32 @@ Harbin Institute of Technology
    #### Preprocess CAMELYON16 Dataset
 
 >We use [CLAM](https://github.com/mahmoodlab/CLAM/tree/master) to preprocess CAMELYON16 at 20x.
->For your own dataset, you can modify and run [create_patches_fp_Lung.py](https://github.com/titizheng/PAMIL/blob/main/slide_preproce/create_patches_fp_Lung.py) and [extract_features_fp_LungRes18Imag.py](https://github.com/titizheng/PAMIL/blob/main/slide_preproce/extract_features_fp_LungRes18Imag.py). 
+>For your own dataset, you can modify and run [create_patches_fp_Lung.py](https://github.com/titizheng/PAMIL/blob/main/slide_preproce/create_patches_fp_Lung.py) and [extract_features_fp_LungRes18Imag.py](https://github.com/titizheng/PAMIL/blob/main/slide_preproce/extract_features_fp_LungRes18Imag.py).
+
+
+The data used for training, validation and testing are expected to be organized as follows:
+```bash
+DATA_ROOT_DIR/
+    ├──DATASET_1_DATA_DIR/
+        └── pt_files
+                ├── slide_1.pt
+                ├── slide_2.pt
+                └── ...
+        └── h5_files
+                ├── slide_1.h5
+                ├── slide_2.h5
+                └── ...
+    ├──DATASET_2_DATA_DIR/
+        └── pt_files
+                ├── slide_a.pt
+                ├── slide_b.pt
+                └── ...
+        └── h5_files
+                ├── slide_i.h5
+                ├── slide_ii.h5
+                └── ...
+    └── ...
+```
 
 
    #### Preprocessed feature vector
