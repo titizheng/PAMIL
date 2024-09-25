@@ -31,9 +31,9 @@ Harbin Institute of Technology
   
 | Dataset | Link | 
 |------------|:-----|
-| `TCGA`|[HF link](https://pan.quark.cn/s/b6c014c29528)
-| `CAMELYON16-Testing`|[HF link](https://pan.quark.cn/s/7339cfb8c26c)
-| `CAMELYON16-Training and validation`|[HF link](https://pan.quark.cn/s/27f392595e83)
+| `TCGA`|[HF link](https://pan.quark.cn/s/e3d80653294d)
+| `CAMELYON16-Testing`|[HF link](https://pan.quark.cn/s/0000a04c9895)
+| `CAMELYON16-Training and validation`|[HF link](https://pan.quark.cn/s/0877b64faf78)
 </div>
 
 
