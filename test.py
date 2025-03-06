@@ -25,7 +25,11 @@ def main(args):
     basedmodel,ppo,classifymodel,memory,FusionHisF = create_model(args)
     data_csv_dir = args.csv
     h5file_dir = args.test_h5
+<<<<<<< HEAD
     test_pth = ''
+=======
+    test_pth = '/home/ttzheng/MILRLMedical/PAMIL/save_model/Camelyon16_model.pth.tar'
+>>>>>>> 9552a20 (Initial commit)
     
     checkpoint = torch.load(test_pth)
     basedmodel.load_state_dict(checkpoint['model_state_dict'])
@@ -46,7 +50,11 @@ def main(args):
 
     df = pd.DataFrame(res_list, columns=[ 'acc', 'auc', 'precision', 'recall', 'f1'])
     
+<<<<<<< HEAD
     df.to_csv('/result.csv', index=False)
+=======
+    df.to_csv('/home/ttzheng/MILRLMedical/PAMIL/save_model/result.csv', index=False)
+>>>>>>> 9552a20 (Initial commit)
 
 
 
